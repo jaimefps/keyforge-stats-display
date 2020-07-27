@@ -4,6 +4,7 @@
   "description": "Tessel project",
   "main": "index.js",
   "scripts": {
+    "start:lcd": "node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "www.github.com/tessel/t2-cli",
@@ -15,6 +16,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "johnny-five": "^2.0.0",
+    "tessel": "^0.3.25",
     "tessel-io": "^1.3.0"
   }
 }
